@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+button, input {
+  font: inherit;
+}
+
+#createPostForm {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  box-shadow: 0 3px 12px #00000014;
+}
+
+#createPostForm input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+#createPostForm button {
+  color: #fff;
+  cursor: pointer;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+}
+
+#createPostForm button:hover {
+  background: #1d4ed8;
+}
+
+#postsContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post {
+  background: #fff;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  padding: 25px;
+  box-shadow: 0 3px 15px #00000014;
+}
+
+.post h2 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.post > p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.editPostButton, .deletePostButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  margin-right: 6px;
+  padding: 7px 12px;
+}
+
+.editPostButton {
+  color: #fff;
+  background: #f59e0b;
+}
+
+.deletePostButton {
+  color: #fff;
+  background: #ef4444;
+}
+
+.commentsContainer {
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.commentsContainer h3 {
+  margin-top: 0;
+}
+
+.commentList {
+  padding-left: 25px;
+}
+
+.commentList li {
+  margin-bottom: 10px;
+}
+
+.commentList li p {
+  background: #f1f5f9;
+  border-radius: 8px;
+  margin: 0;
+  padding: 9px 14px;
+  display: inline-block;
+}
+
+.createCommentForm {
+  gap: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.commentInput {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+  flex: 1;
+  padding: 10px 12px;
+}
+
+.commentInput:focus {
+  border-color: #2563eb;
+}
+
+.createCommentForm button {
+  color: #fff;
+  cursor: pointer;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.createCommentForm button:hover {
+  background: #1d4ed8;
+}
+
+@media (width <= 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .post {
+    padding: 18px;
+  }
+
+  .createCommentForm {
+    flex-direction: column;
+  }
+
+  .createCommentForm button {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=asyn project.2cdaf7bc.css.map */
